@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+}
+
+.root {
+  background-color: rgb(50, 50, 50);
+  color: #fff;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 0 2rem;
+  text-align: center;
+  width: 20vw;
+  padding-top: 2rem;
+}
+
+.root h3 {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.root p {
+  padding: 2rem 0;
+  font-size: 3rem;
+}
+
+/* controls */
+
+.rootControls {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6rem 2rem;
+  width: 20vw;
+  justify-content: space-between;
+  background-color: #000;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+@media (max-width: 666px) {
+  .rootControls {
+    width: 100%;
+  }
+}
+
+@media (min-width: 667px) and (max-width: 1200px) {
+  .rootControls {
+    width: 40vw;
+  }
+}
+
+/* icon */
+.arrowRight {
+  width: 0;
+  height: 0;
+  margin: auto;
+  border-top: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid transparent;
+  border-left: 0.5rem solid #fff;
+}
+
+.arrowLeft {
+  width: 0;
+  height: 0;
+  margin: auto;
+  border-top: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid transparent;
+  border-right: 0.5rem solid #fff;
+}
+
+.wrapper {
+  display: flex;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: rgb(151, 38, 192);
+  cursor: pointer;
+}
+
+/* remote */
+
+.content {
+  /* max-width: 20vw; */
+  margin: auto;
+  /* padding: 2rem; */
+  border: 1px solid #bbb;
+  border-radius: 1rem;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+}
+
+@media (max-width: 666px) {
+  .content {
+    width: 100%;
+  }
+}

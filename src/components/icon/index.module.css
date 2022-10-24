@@ -1,0 +1,26 @@
+.arrowRight {
+  width: 0;
+  height: 0;
+  margin: auto;
+  border-top: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid transparent;
+  border-left: 0.5rem solid #fff;
+}
+
+.arrowLeft {
+  width: 0;
+  height: 0;
+  margin: auto;
+  border-top: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid transparent;
+  border-right: 0.5rem solid #fff;
+}
+
+.wrapper {
+  display: flex;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: rgb(151, 38, 192);
+  cursor: pointer;
+}

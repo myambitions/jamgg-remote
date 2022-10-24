@@ -1,0 +1,18 @@
+.content {
+  /* max-width: 20vw; */
+  margin: auto;
+  /* padding: 2rem; */
+  border: 1px solid #bbb;
+  border-radius: 1rem;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+}
+
+@media (max-width: 666px) {
+  .content {
+    width: 100%;
+  }
+}

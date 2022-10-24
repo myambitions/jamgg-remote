@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6rem 2rem;
+  width: 20vw;
+  justify-content: space-between;
+  background-color: #000;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+@media (max-width: 666px) {
+  .root {
+    width: 100%;
+  }
+}
+
+@media (min-width: 667px) and (max-width: 1200px) {
+  .root {
+    width: 40vw;
+  }
+}
